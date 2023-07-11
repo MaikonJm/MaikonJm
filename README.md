@@ -13,7 +13,7 @@
 
 ## Projetos
 
--Cinenews: https://cine-news-2b455.web.app/_otherPages/emcartaz.html#
+- Cinenews: https://cine-news-2b455.web.app/_otherPages/emcartaz.html#
 
 ## Contatos:
 
