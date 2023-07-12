@@ -12,7 +12,7 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" width="40" height="40"/>
 
 ## Projetos
-
+  Site Web:
 - Cinenews: https://cine-news-2b455.web.app/_otherPages/emcartaz.html#
 
 ## Contatos:
