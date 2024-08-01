@@ -1,7 +1,7 @@
 # Olá, me chamo Maikon Marquez ! 
 ## Bem vindo ao meu perfil GitHub 👋
 
-- Sou um profissional comprometido em garantir a qualidade do software por meio de testes rigorosos e abrangentes. Tenho habilidades analíticas fortes e sou capaz de colaborar efetivamente com equipes multidisciplinares para identificar e resolver problemas. Estou sempre buscando aprimorar meus conhecimentos e adotar as melhores práticas da área de testes.
+- Sou um profissional com habilidades analíticas e uma paixão por tecnologia, focado em segurança da informação. Com experiência em virtualização de sistemas e automação de processos, meu objetivo é proteger dados e garantir a integridade dos sistemas.
 
 ## Ferramentas e Tecnologias
 
