@@ -33,5 +33,5 @@
 <div>
 <a href="https://github.com/MaikonJm">
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaikonJm&layout=compact&langs_count=7&theme=neon"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=MaikonJm&show_icons=true&theme=neon&include_all_commits=false&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=MaikonJm&show_icons=false&theme=neon&include_all_commits=true&count_private=true"/>
 </div>
