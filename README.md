@@ -34,3 +34,8 @@
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaikonJm&layout=compact&langs_count=7&theme=neon&locale=pt-br"/>
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MaikonJm&show_icons=true&theme=neon&include_all_commits=true&count_private=true"/>
 </div>
+
+<!-- GIF -->
+<p align="left">
+  <img align="center" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F545850417318625644%2F&psig=AOvVaw2Ok6x4zzoOvqxhl9WIkulq&ust=1738245696421000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLCAi_uLm4sDFQAAAAAdAAAAABBz" alt="Imagem">
+</p>
