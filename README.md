@@ -1,4 +1,3 @@
-# Olá, me chamo Maikon Marquez ! 
 ## Bem vindo ao meu perfil GitHub 👋
 
 - Sou um profissional com habilidades analíticas e uma paixão por tecnologia, focado em DEVOPS. Com experiência em virtualização de sistemas e automação de processos, meu objetivo é garantir a integridade dos sistemas.
