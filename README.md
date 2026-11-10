@@ -1,36 +1,60 @@
-## Bem vindo ao meu perfil GitHub 👋
+<h1>Hi, I'm Maikon Marquez 👋</h1>
 
-- Sou um profissional com habilidades analíticas e uma paixão por tecnologia, focado em DEVOPS. Com experiência em virtualização de sistemas e automação de processos, meu objetivo é garantir a integridade dos sistemas.
+**Cloud & DevOps Engineer** · AWS · Terraform · Docker · Kubernetes · CI/CD · AI/RAG
+📍 Uberlândia, Brazil · 🌎 Open to remote roles
 
-## Ferramentas e Tecnologias
+I build and automate cloud infrastructure end to end: provisioning with **Terraform**, containerizing with **Docker**, orchestrating with **Kubernetes** and shipping through **GitHub Actions** pipelines. Lately I've been combining DevOps with **Generative AI**, running local LLM + RAG stacks in containers.
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apache/apache-original-wordmark.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original-wordmark.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" width="50" height="50"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/confluence/confluence-original-wordmark.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original-wordmark.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain-wordmark.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/salesforce/salesforce-original.svg" width="50" height="50"/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuredevops/azuredevops-original.svg" width="50" height="50"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kibana/kibana-original.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqldeveloper/sqldeveloper-original.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="50" height="50"/>
-          
-          
+- 🔭 Currently building **HumanGov**, a multi-environment AWS platform with Terraform modules, remote state, Ansible, Docker and Kubernetes
+- 🌱 Learning: **Azure** and **MLOps / LLMOps**
+- ✍️ I document every project step by step on [Medium](https://medium.com/@maikonjm) (PT-BR)
 
-## No momento estou estudando
+---
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain-wordmark.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" width="50" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="50" height="50"/>
-          
-          
-          
-          
-          
+### 🚀 Featured projects
 
+| Project | What it shows | Stack |
+|---|---|---|
+| [**cloud-ai-local-rag**](https://github.com/MaikonJm/cloud-ai-local-rag) | Local AI assistant with RAG: document ingestion, OCR, auto-classification and semantic search, served through an OpenAI-compatible API | Docker Compose · FastAPI · Ollama · Qdrant · Tesseract |
+| [**kubernetes-project**](https://github.com/MaikonJm/kubernetes-project) | App deployment on Kubernetes with Ingress, ConfigMaps, Secrets and Horizontal Pod Autoscaler | Kubernetes · Minikube/Kind |
+| [**workflow-cicd-github-actions**](https://github.com/MaikonJm/workflow-cicd-github-actions) | CI pipeline running automated tests and Docker image build on every push | GitHub Actions · Docker · Node.js |
+| [**multi-conteiner-app**](https://github.com/MaikonJm/multi-conteiner-app) | 3-tier app (frontend, API, database) orchestrated with Docker Compose and built in CI | Docker · Spring Boot · React · PostgreSQL |
 
+<!-- Adicionar quando estiverem públicos:
+| [**human-gov-infrastructure**](https://github.com/MaikonJm/human-gov-infrastructure) | Reusable Terraform modules per environment, S3 remote state with locking, CI plan on PRs | Terraform · AWS · GitHub Actions |
+| [**aws-ecommerce-iac**](https://github.com/MaikonJm/aws-ecommerce-iac) | Magento stack on AWS provisioned by Terraform and fully configured by Ansible | Terraform · Ansible · AWS |
+-->
 
-## Contatos:
+---
 
-<div>
-<a href="https://instagram.com/_marqz_00/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-<a href="https://www.twitch.tv/kisetype" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
-<a href = "mailto:maikonjm@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-<a href="https://www.linkedin.com/in/maikon-marquez/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
-</div>
+### 🛠️ Tech stack
 
-<div>
-<a href="https://github.com/MaikonJm">
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaikonJm&layout=compact&langs_count=7&theme=neon&locale=pt-br"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=MaikonJm&show_icons=true&theme=neon&include_all_commits=true&count_private=true&locale=pt-br"/>
-</div>
+**Cloud** <br>
+<img src="https://skillicons.dev/icons?i=aws,gcp&theme=dark" />
+
+**IaC & CI/CD** <br>
+<img src="https://skillicons.dev/icons?i=terraform,ansible,githubactions,git,github&theme=dark" />
+
+**Containers & OS** <br>
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,ubuntu,bash&theme=dark" />
+
+**Code, data & AI** <br>
+<img src="https://skillicons.dev/icons?i=python,fastapi,mysql,postgres&theme=dark" /> &nbsp; + Ollama · Qdrant · RAG
+
+**Learning** <br>
+<img src="https://skillicons.dev/icons?i=azure&theme=dark" />
+
+---
+
+### 🎓 Education & training
+
+<!-- Adicionar a pós-graduação: - <Curso> — <Instituição> (<ano>) -->
+- The Cloud Bootcamp: **AWS** (completed) · **DevOps Cloud** (in progress)
+
+---
+
+### 📫 Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maikon-marquez)
+[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@maikonjm)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maikonjm@gmail.com)
