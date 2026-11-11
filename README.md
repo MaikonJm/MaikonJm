@@ -39,7 +39,8 @@ I build and automate cloud infrastructure end to end: provisioning with **Terraf
 <img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,ubuntu,bash&theme=dark" />
 
 **Code, data & AI** <br>
-<img src="https://skillicons.dev/icons?i=python,fastapi,mysql,postgres&theme=dark" /> &nbsp; + Ollama · Qdrant · RAG
+<img src="https://skillicons.dev/icons?i=python,fastapi,mysql,postgres&theme=dark" /> <br>
+<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" /> <img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white" /> <img src="https://img.shields.io/badge/RAG-6A1B9A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Open_WebUI-1F2937?style=for-the-badge" />
 
 **Learning** <br>
 <img src="https://skillicons.dev/icons?i=azure&theme=dark" />
