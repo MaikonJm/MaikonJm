@@ -3,14 +3,27 @@
 **Cloud & DevOps Engineer · SRE** · AWS · Terraform · Kubernetes · Observability · CI/CD · Generative AI
 📍 Uberlândia, Brazil · 🌎 Open to remote roles
 
-I build and automate cloud infrastructure end to end: provisioning with **Terraform**, containerizing with **Docker**, orchestrating with **Kubernetes** and shipping through **GitHub Actions** pipelines. Lately I've been combining SRE with **Generative AI**: SLO-based alerting, chaos testing and an AI agent that investigates incidents on **Amazon Bedrock**.
+I build and automate cloud infrastructure end to end: provisioning with **Terraform**, containerizing with **Docker**, orchestrating with **Kubernetes** and shipping through **GitHub Actions** pipelines. Lately I've been combining SRE with **Generative AI** on **Amazon Bedrock**: an agent that turns GitHub issues into pull requests inside a Fargate sandbox, and another that investigates incidents from SLO burn-rate alerts. In both, a human always approves.
 
-- 🏆 Latest: [**AWS SRE AI Platform**](https://github.com/MaikonJm/aws-sre-ai-platform), tested end to end with chaos experiments: 11 real bugs found and fixed, two post-mortems
+- 🏆 Latest: [**AI Dev Agent**](https://github.com/MaikonJm/ai-dev-agent), a serverless agent that plans, waits for approval and opens pull requests; first run on AWS documented in a post-mortem
+- 🧪 Before that: [**AWS SRE AI Platform**](https://github.com/MaikonJm/aws-sre-ai-platform), tested end to end with chaos experiments: 11 real bugs found and fixed, two post-mortems
 - 🔭 Also building **HumanGov**, a multi-environment AWS platform with Terraform modules, remote state, Ansible, Docker and Kubernetes
 - 🌱 Learning: **Azure** and **MLOps / LLMOps**
 - ✍️ I document every project step by step on [Medium](https://medium.com/@maikonjm) (PT-BR)
 
 ---
+
+### ⭐ Spotlight: AI Dev Agent
+
+<a href="https://github.com/MaikonJm/ai-dev-agent"><img src="https://raw.githubusercontent.com/MaikonJm/ai-dev-agent/main/docs/images/cover.png" alt="AI Dev Agent" width="100%"></a>
+
+An autonomous development agent on AWS. Label a GitHub issue, approve the plan it proposes, and it writes the code and the tests in an isolated **Fargate** sandbox and opens a pull request. It never merges: a human always decides.
+
+- **Ran end to end on AWS:** plan in 9 s, pull request in 43 s with the correct fix, about US$ 0.23 in model spend, merged after human review
+- **Six findings** that 78 passing unit tests could not see, fixed in their own PRs or documented in a blameless post-mortem
+- **Serverless and 100% Terraform:** API Gateway, Lambda, SQS + DLQ, DynamoDB, ECS Fargate, Bedrock; no idle cost, 52 resources created and destroyed in one session
+
+[Repository](https://github.com/MaikonJm/ai-dev-agent) · [Write-up on Medium (PT-BR)](https://medium.com/@maikonjm/meu-agente-de-ia-passou-em-78-testes-falhou-na-primeira-issue-real-6e09abd29dd6)
 
 ### ⭐ Spotlight: AWS SRE AI Platform
 
@@ -28,6 +41,7 @@ An order-processing platform on AWS that investigates its own incidents. When an
 
 | Project | What it shows | Stack |
 |---|---|---|
+| [**ai-dev-agent**](https://github.com/MaikonJm/ai-dev-agent) | Agent that turns a GitHub issue into a pull request after human approval, with guardrails enforced in code and an isolated sandbox per task | Terraform · AWS Lambda · Fargate · SQS · DynamoDB · Bedrock · Python |
 | [**aws-sre-ai-platform**](https://github.com/MaikonJm/aws-sre-ai-platform) | SLOs with burn-rate alerts, chaos experiments and an AI SRE agent that opens incident issues for human approval | Terraform · AWS · Kubernetes · SQS · Prometheus · Grafana · Bedrock |
 | [**cloud-ai-local-rag**](https://github.com/MaikonJm/cloud-ai-local-rag) | Local AI assistant with RAG: document ingestion, OCR, auto-classification and semantic search, served through an OpenAI-compatible API | Docker Compose · FastAPI · Ollama · Qdrant · Tesseract |
 | [**kubernetes-project**](https://github.com/MaikonJm/kubernetes-project) | App deployment on Kubernetes with Ingress, ConfigMaps, Secrets and Horizontal Pod Autoscaler | Kubernetes · Minikube/Kind |
@@ -44,7 +58,8 @@ An order-processing platform on AWS that investigates its own incidents. When an
 ### 🛠️ Tech stack
 
 **Cloud** <br>
-<img src="https://skillicons.dev/icons?i=aws,gcp&theme=dark" />
+<img src="https://skillicons.dev/icons?i=aws,gcp&theme=dark" /> <br>
+<img src="https://img.shields.io/badge/Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white" /> <img src="https://img.shields.io/badge/ECS_Fargate-FF9900?style=for-the-badge&logo=awsfargate&logoColor=white" /> <img src="https://img.shields.io/badge/API_Gateway-8C4FFF?style=for-the-badge" /> <img src="https://img.shields.io/badge/SQS-E7157B?style=for-the-badge" /> <img src="https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white" />
 
 **IaC & CI/CD** <br>
 <img src="https://skillicons.dev/icons?i=terraform,ansible,githubactions,git,github&theme=dark" />
